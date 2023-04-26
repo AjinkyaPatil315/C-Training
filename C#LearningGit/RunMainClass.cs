@@ -15,21 +15,22 @@ namespace Training_C_
             //Assignment 1 programs 
             Consonants consonants = new Consonants();
             Console.WriteLine("Assignment-1 : First Program \n ");
-            consonants.findConsonants("Ajinkyaa".ToLower());
+            consonants.findConsonants("Rrrrrajhhanssa".ToLower());
             Fibonacci fibonacci = new Fibonacci();
             Console.WriteLine("Assignment-1 : Second Program \n ");
             fibonacci.findFibonacciSeries(5, 30);
             Pyramid pyramid = new Pyramid();
             Console.WriteLine("Assignment-1 : Third Program \n ");
             pyramid.PrintPyramid(35);
-            SquareRoot root = new SquareRoot();
+            ReverseInteger reverse = new ReverseInteger();
             Console.WriteLine("Assignment-1 : Fourth Program \n ");
+            reverse.reverseInteger(123456);
+            SquareRoot root = new SquareRoot();
+            Console.WriteLine("Assignment-1 : Fifth Program \n ");
             root.findSquareRoot(7);
             root.findSquareRoot(50);
             root.findSquareRoot(21);
-            ReverseInteger reverse = new ReverseInteger();
-            Console.WriteLine("Assignment-1 : Fifth Program \n ");
-            reverse.reverseInteger(123456);
+            
 
             //Assignment 2 programs
             AreaPerimeter formula = new AreaPerimeter();
