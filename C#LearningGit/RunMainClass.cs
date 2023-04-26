@@ -8,7 +8,7 @@ using Training_C_.Exercise_Day2;
 
 namespace Training_C_
 {
-    public class RunTheClass
+    public class RunMainClass
     {
         static void Main()
         {
