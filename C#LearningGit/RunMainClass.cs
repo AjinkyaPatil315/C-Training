@@ -15,13 +15,13 @@ namespace Training_C_
             //Assignment 1 programs 
             Consonants consonants = new Consonants();
             Console.WriteLine("Assignment-1 : First Program \n ");
-            consonants.findConsonants("Rrrrrajhhanssa".ToLower());
+            consonants.findConsonants("Rrrrrajhhanssa".ToLower());//Input value should be from Console And Handle special character
             Fibonacci fibonacci = new Fibonacci();
             Console.WriteLine("Assignment-1 : Second Program \n ");
-            fibonacci.findFibonacciSeries(5, 30);
+            fibonacci.findFibonacciSeries(3, 40);
             Pyramid pyramid = new Pyramid();
             Console.WriteLine("Assignment-1 : Third Program \n ");
-            pyramid.PrintPyramid(35);
+            pyramid.PrintPyramid(28);
             ReverseInteger reverse = new ReverseInteger();
             Console.WriteLine("Assignment-1 : Fourth Program \n ");
             reverse.reverseInteger(123456);
@@ -35,12 +35,14 @@ namespace Training_C_
             //Assignment 2 programs
             AreaPerimeter formula = new AreaPerimeter();
             Console.WriteLine("Assignment-2 : First Program \n ");
+            formula.AreaOfTriangle(11, 24); 
             formula.AreaOfSquare(10);
-            formula.AreaOfRectangle(25.658, 10);
-            formula.AreaOfTriangle(13.5, 25);
-            formula.PerimeterOftriangle(26, 26, 30);
-            formula.CircumferenceOfCircle(26);
-            formula.PerimeterOfRectangle(56, 96);
+            formula.AreaOfRectangle(28, 12);
+            
+            formula.PerimeterOftriangle(23, 21, 39);
+            formula.CircumferenceOfCircle(21);
+            formula.PerimeterOfRectangle(49, 69);
+
             StudentExamMarks stu = new StudentExamMarks( 75, 56, 39, 80);
             Console.WriteLine("\n");
             Console.WriteLine("Assignment-2 : Second Program \n ");

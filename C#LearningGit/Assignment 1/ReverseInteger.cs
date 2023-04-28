@@ -4,7 +4,7 @@
     {
         public void reverseInteger(int valueToBeReversed)
         {
-            int value = valueToBeReversed;
+           int value = valueToBeReversed;
            int reversedNumber = 0;
            while (valueToBeReversed > 0)
              {
