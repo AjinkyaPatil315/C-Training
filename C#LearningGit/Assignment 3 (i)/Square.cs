@@ -19,10 +19,10 @@ namespace Training_C_.Exercise_Day3
             Console.WriteLine("Area of the given square with length as " + length + " is " + area);
         }
 
-        public void Perimeter(double side1, double side2, double baselength)
+        public void Perimeter(double side1, double side2, double side3, double side4)
         {
-            double perimeter = side1 + side2 + baselength;
-            Console.WriteLine("Perimeter of a Triangle is " + perimeter);
+            double perimeter = side1 + side2 + side3 + side4;
+            Console.WriteLine("Perimeter of the given square with length as " + side1 + " is " + perimeter);
         }
     }
 }
