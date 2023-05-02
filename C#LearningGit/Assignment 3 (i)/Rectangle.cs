@@ -10,6 +10,8 @@ namespace Training_C_.Exercise_Day3
     public class Rectangle : Shape_2D
     {
         double length, width;
+        private int side1, side2;
+
         public Rectangle(double length, double width) : base(length, width)
         {
             this.length = length;
@@ -18,14 +20,14 @@ namespace Training_C_.Exercise_Day3
 
         public void Area()
         {
-            double area = length * length;
-            Console.WriteLine("Area of the given square with length as " + length + " is " + area);
+            double area = length * width;
+            Console.WriteLine("Area of the given Rectangle with length as " + length + " and width as" + width + " is " + area);
         }
 
         public void Perimeter()
         {
-            double perimeter = length + width;
-            Console.WriteLine("Perimeter of a Triangle is " + perimeter);
+            double perimeter = 2 * length + 2 * width;
+            Console.WriteLine("Perimeter of the given Rectangle with length as " + length + " and width as " + width + " is " + perimeter);
         }
     }
 }
