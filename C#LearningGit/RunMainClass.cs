@@ -10,6 +10,7 @@ using Training_C_.Exercise;
 using Training_C_.Exercise_Day2;
 using Training_C_.Exercise_Day3;
 using Training_C_.Exercise_Day4;
+using Core;
 
 namespace Training_C_
 {
@@ -122,9 +123,11 @@ namespace Training_C_
             //Console.WriteLine("Assignment-5 : Fourth Program \n ");
             //new ReadAndStore().ReadAndStoreAssign();
 
-            Console.WriteLine("\n");
-            Console.WriteLine("Assignment-5 : Fifth Program \n ");
-            new ClearDB().ClearDBData();
+            //Console.WriteLine("\n");
+            //Console.WriteLine("Assignment-5 : Fifth Program \n ");
+            //new ClearDB().ClearDBData();
+
+            "ABC".print();
         }
     }
 }
