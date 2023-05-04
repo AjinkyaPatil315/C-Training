@@ -10,7 +10,8 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
-    <PackageReference Include="System.Data.OleDb" Version="7.0.0" />
+	  <PackageReference Include="System.Data.OleDb" Version="7.0.0"/>
+	  <ProjectReference Include="..\Core\Core.csproj"/>
   </ItemGroup>
 
 </Project>
