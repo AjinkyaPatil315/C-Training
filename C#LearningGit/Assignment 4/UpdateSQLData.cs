@@ -11,8 +11,8 @@ namespace C_LearningGit.Assignment_4
     {
         public void UpdateSQLData1() 
         {
-            var salary = 105;
-            var empId = 1;
+            var salary = 10500;
+            var empId = 2;
             var read = new ReadSQlData();
             var oldvalue = read.ReadSQlDataAssign("Salary", "SELECT TOP 1 * FROM Employee Where EmpId = " + empId);
             string source = "Data Source=localhost\\SQLEXPRESS02;Database=master;" + "Integrated Security=True;" + "TrustServerCertificate=True;";

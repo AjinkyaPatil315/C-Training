@@ -1,5 +1,6 @@
 ﻿using C_LearningGit.Assignment_3;
 using C_LearningGit.Assignment_4;
+using C_LearningGit.Assignment_5;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -88,10 +89,10 @@ namespace Training_C_
             //math.Product(25, 25);
             //math.Product(10, 10, 5);
             //math.Modulus(1258, 100);
-            //math.Modulus(12588, 1256, 100);
+            //math.Modulus(12588, 1256, 0);
 
 
-            ////Assignment 4 program
+            //Assignment 4 program
             //Console.WriteLine("\n");
             //Console.WriteLine("Assignment-4 : First Program \n ");
             //new ReadExcel().ReadExcelData();
@@ -100,12 +101,30 @@ namespace Training_C_
             //Console.WriteLine("Assignment-4 : Second Program \n ");
             //new UpdateExcelData().UpdateExcelDataAssign();
 
+            //Console.WriteLine("\n");
+            //Console.WriteLine("Assignment-4 : Third Program \n ");
+            //new ReadSQlData().ReadSQlDataAssign();
 
-            Console.WriteLine("\n");
-            Console.WriteLine("Assignment-4 : Fourth Program \n ");
-            new UpdateSQLData().UpdateSQLData1();
+            //Console.WriteLine("\n");
+            //Console.WriteLine("Assignment-4 : Fourth Program \n ");
+            //new UpdateSQLData().UpdateSQLData1();
 
             //Assignment 5 program
+            //Console.WriteLine("\n");
+            //Console.WriteLine("Assignment-5 : First and Second Program \n ");
+            //new CreateAndStore().CreateAndStoreExcelData();
+
+            //Console.WriteLine("\n");
+            //Console.WriteLine("Assignment-5 : Third Program \n ");
+            //new PrintRelEmpDet().PrintRelEmpDetAssign();
+
+            //Console.WriteLine("\n");
+            //Console.WriteLine("Assignment-5 : Fourth Program \n ");
+            //new ReadAndStore().ReadAndStoreAssign();
+
+            Console.WriteLine("\n");
+            Console.WriteLine("Assignment-5 : Fifth Program \n ");
+            new ClearDB().ClearDBData();
         }
     }
 }
